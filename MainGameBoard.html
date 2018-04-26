@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chain Reaction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="game-style.css" />
+    <script src="game-script.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
+    
+</head>
+
+<body onload="gameBoard()">
+
+    <header>CHAIN REACTION</header>
+        
+    <h1 id="h1"><a href="https://brilliant.org/wiki/chain-reaction-game/#rules-of-the-game">Rules For Playing The Game</a></h1>
+
+    
+    <div class="gameBoard" id="ID_gameBoard" onclick="InsertGif(event)"></div>
+    
+   
+    <div id="gameOverID">
+        <h2 class="gameOverText">Game Over!</h2> 
+        <h3 id="playerStats">!!!Player <span id="colorAllowed"></span> Wins The Game!!!</h3>
+        <button class="button button1" onclick="Reboot()">PLAY AGAIN</button>
+    </div>
+</body>
+
+</html>
